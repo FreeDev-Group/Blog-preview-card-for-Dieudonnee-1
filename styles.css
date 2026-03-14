@@ -32,8 +32,6 @@ body{
   align-items:center;
   justify-content:center;
 }
- 
-
 .card{
   width:var(--card-width);
   background:var(--card-bg);
@@ -43,9 +41,6 @@ body{
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
  
 }
-
-
-
 .card-media{
   padding:18px;
   border-top-left-radius:var(--radius);
@@ -60,13 +55,9 @@ body{
   border-radius:12px;
   box-shadow: 0 2px 0 rgba(0,0,0,0.06) inset;
 }
-
-
 .card-body{
   padding:18px 20px 22px;
 }
-
-
 .tag{
   display:inline-block;
   background:var(--accent);
@@ -77,15 +68,11 @@ body{
   border-radius:8px;
   margin-bottom:10px;
 }
-
-
 .date{
   margin:8px 0 14px;
   font-size:13px;
   color:var(--muted);
 }
-
-
 .title{
   font-size:20px;
   margin:0 0 12px;
@@ -93,7 +80,6 @@ body{
   line-height:1.15;
   font-weight:700;
 }
-
 .avatar{
   width:34px;
   height:34px;
