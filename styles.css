@@ -1,5 +1,5 @@
 :root{
-  --bg: #f6f5f2;        
+  --bg: #f4c44b;          
   --card-bg: #fff;
   --muted: #6b6b6b;
   --text: #111;
@@ -11,6 +11,7 @@
   --shadow-color: #0b0b0b;
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
+
 
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -41,6 +42,20 @@ body{
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
  
 }
+.card::before{
+  content:"";
+  position:absolute;
+  left: calc(var(--shadow-offset-x));
+  top: calc(var(--shadow-offset-y));
+  right: -6px; 
+  bottom: -6px;
+  background: var(--shadow-color);
+  border-radius: calc(var(--radius) + 6px);
+  z-index:-2;
+  transform: translate(8px, 6px);
+  filter: blur(0.6px);
+}  
+
 .card-media{
   padding:18px;
   border-top-left-radius:var(--radius);
