@@ -37,5 +37,5 @@ This challenge helps practice:
 3. Customize the content as needed  
 
 ##  Author
-- Name:Mulongesha Dieudoné
-- GitHub: https://github.com/mulongeshadieudonne17-alt
+- Name:Mulongesha Dieudonne
+- GitHub:https://github.com/mulongeshadieudonne17-alt
