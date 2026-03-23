@@ -34,7 +34,10 @@ This challenge helps practice:
 ##  Usage
 1. Download the project files  
 2. Open `index.html` in your browser  
-3. Customize the content as needed  
+3. Customize the content as needed
+
+##  Live demo
+https://freedev-group.github.io/Blog-preview-card-for-Dieudonnee-1/
 
 ##  Author
 - Name:Mulongesha Dieudonne
